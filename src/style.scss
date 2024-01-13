@@ -1,0 +1,28 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-create-block-testimonial-block {
+
+	blockquote {
+		border-left: solid 8px #ececec;
+		margin: 20px 0;
+		padding-left: 20px;
+		font-size: 1.5em;
+	}
+
+	p {
+		font-size: 1em;
+		margin: 0;
+		line-height: 1;
+	}
+
+	small {
+		margin: 0;
+		font-style: italic;
+		font-size: 0.75em;
+	}
+}

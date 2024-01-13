@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/testimonial-block",
+  "version": "0.1.0",
+  "title": "Testimonial Block",
+  "category": "widgets",
+  "description": "Bloque para mostrar testimonios",
+  "example": {},
+  "attributes": {
+    "testimonialQuotes": {
+      "type": "string"
+    },
+    "authorName": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "color": {
+      "background": false,
+      "text": true
+    },
+    "html": false,
+    "typography": {
+      "fontSize": true
+    }
+  },
+  "textdomain": "testimonial-block",
+  "style": "file:./style-index.css",
+  "editorScript": "file:./index.js"
+}
